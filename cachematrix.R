@@ -1,7 +1,5 @@
 ## Functions that cache the inverse of a matrix
-##
 ## Usage example:
-##
 ## > source('cachematrix.R')
 ## > m <- makeCacheMatrix(matrix(c(2, 0, 0, 2), c(2, 2)))
 ## > cacheSolve(m)
@@ -32,7 +30,6 @@ makeCacheMatrix <- function(x = matrix()) {
         getinverse = getinverse
     )
 }
-
 
 ## Calculate the inverse of the special "matrix" created with the above
 ## function, reusing cached result if it is available
